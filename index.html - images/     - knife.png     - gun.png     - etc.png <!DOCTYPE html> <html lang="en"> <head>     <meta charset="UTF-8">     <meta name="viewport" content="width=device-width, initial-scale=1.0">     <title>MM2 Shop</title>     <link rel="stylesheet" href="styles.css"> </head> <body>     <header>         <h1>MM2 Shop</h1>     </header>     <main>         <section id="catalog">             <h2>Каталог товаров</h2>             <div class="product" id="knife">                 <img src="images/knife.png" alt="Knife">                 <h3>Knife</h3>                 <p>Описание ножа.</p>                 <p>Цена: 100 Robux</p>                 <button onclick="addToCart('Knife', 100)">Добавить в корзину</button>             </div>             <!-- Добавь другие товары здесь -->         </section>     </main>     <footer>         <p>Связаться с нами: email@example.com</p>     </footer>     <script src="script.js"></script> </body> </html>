@@ -1,0 +1,36 @@
+index.html
+- images/
+    - knife.png
+    - gun.png
+    - etc.png
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM2 Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MM2 Shop</h1>
+    </header>
+    <main>
+        <section id="catalog">
+            <h2>Каталог товаров</h2>
+            <div class="product" id="knife">
+                <img src="images/knife.png" alt="Knife">
+                <h3>Knife</h3>
+                <p>Описание ножа.</p>
+                <p>Цена: 100 Robux</p>
+                <button onclick="addToCart('Knife', 100)">Добавить в корзину</button>
+            </div>
+            <!-- Добавь другие товары здесь -->
+        </section>
+    </main>
+    <footer>
+        <p>Связаться с нами: email@example.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
